@@ -5,10 +5,10 @@ from datetime import datetime
 import time
 
 #initialize twitter bot
-consumer_key = 'nf4doCJIBCPhV2omwi9okGnTz'
-consumer_secret = 'oR1OklVoWNAgiog492JeNoxhdGAvpREQZ5SLoU1gEfuE8hWqs4'
-oauth_token = '1594028438662397954-3e8zPNY6uuJTCvd68wwCyRyxFhxQDw'
-oauth_secret = 'bSU3oiJ0kmn4ygz9MONAalkbJuf0l9yXywFzyqCw6dFMT'
+consumer_key = 'KEY'
+consumer_secret = 'SECRET'
+oauth_token = 'TOKEN'
+oauth_secret = 'SECRET'
 
 authenticator = tweepy.OAuthHandler(consumer_key, consumer_secret)
 authenticator.set_access_token(oauth_token, oauth_secret)
